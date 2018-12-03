@@ -1,5 +1,3 @@
-console.log('test');
-
 // scroll function
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
