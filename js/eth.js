@@ -2,7 +2,7 @@ $(document).ready(function(){
   console.log ('DOM loaded');
 
   // Set up any variables needed
-  var url = './js/btc.json';
+  var url = './js/eth.json';
   var date = [];
   var priceHigh = [];
   var chartData = [];
@@ -50,7 +50,7 @@ $(document).ready(function(){
     })
 
     // line chart
-    Highcharts.chart('container', {
+    Highcharts.chart('container3', {
 
       title: {
              text: 'Bitcoin Prices in USD, 2015-2018'
@@ -87,10 +87,10 @@ $(document).ready(function(){
         data: priceHigh
       }]
     });
-    Highcharts.chart('container', {
+    Highcharts.chart('container3', {
 
       title: {
-             text: 'Bitcoin Prices in USD, 2015-2018'
+             text: 'Ethereum Prices in USD, Last 30 Days'
          },
 
          subtitle: {
@@ -114,6 +114,8 @@ $(document).ready(function(){
                  label: {
                      connectorAllowed: false
                  },
+                 pointStart: 0
+
 
              }
          },

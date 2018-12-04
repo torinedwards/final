@@ -3,7 +3,7 @@
 
       $(function(){
         console.log('scripts loaded');
-        var url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_rank&per_page=10&page=1';
+        var url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap&per_page=10';
 
         $.ajax({
         type: 'GET',

@@ -25,18 +25,13 @@
     <div id='nobgc'>
       <div class='content'>
         <div class='c-body'>
-          <h3 id='bigger'>There are hundreds of different cryptocurrencies currently available, but how do you pick the right one for you? </h3>
+          <h3 id='bigger'>There are hundreds of different cryptocurrencies currently available, but how do you pick the right one? </h3>
 
           <p>That’s a great question! Unfortunately, there’s no cut and dry answer. It depends on what use-case you have for the coin. If you look at cryptocurrency as an investment than you could consider choosing a coin still in its Initial Coin
             Offering (or ICO as it is commonly referred to in the industry), but those are very high risk. Their prices fluctuate wildly similar to a stock on the stock market. You could also consider choosing a more established coin such Bitcoin,
             Litecoin or Ethereum which are all still risky, but have been around for a while and are more established. Another option is to buy a package of coins through an exchange like Coinbase that will give you the ability to own five different
             coins without having to make the purchases individually.</p>
-          <br /><br />
-          <!--chart loaded with JSON data-->
-              <div id="container"></div>
 
-
-          <br /><br />
           <p>
             That being said, even the most popular and well-established coins on the market can fluctuate in price wildly (as the graph above illustrates). And, if you are more interested in using cryptocurrency as a means to protect the value of your money, then a stable coin would be a better option. These
             coins do not fluctuate in price the same way that most other coins do. Instead, their price is tied to that of a traditional currency such as the US dollar so that one coin will always be worth one USD.
@@ -44,7 +39,7 @@
             exchange. Coinbase.com is a great example of this. That being said, a good place to start is deciding what you want to do with your coins, from there you can look online to find the coin that is best for you!</p>
 
             <h3>Coins By the Numbers</h3>
-            <table id="table">
+            <table id="table" class='display hover'>
                   <thead>
                     <tr>
                       <th>Coin Name</th>
@@ -57,21 +52,69 @@
                   </thead>
                 </table>
 
+                <div class='favorites'>
+                  <h3>Need a Bit More Guidance? Check Out Some of Our Current Favorites</h3>
+                  <p>
+                    <i>Note: The creator of this site, at the time of creating this site owns (in some quanity) all of the following coins.</i>
+                    <br />
+                    <br />
+                    One way that we like to go about choosing which coins to buy is by researching the use-case for the given coin and then searching for examples of organizations within that industry that have attempted to adopt the coin into their business model. Another way is to choose the ones that are steadily gaining price. Sometimes, we use both!
+                    <br />
+                    <br />
+                    <ol>
+                      <li>
+                        <h4>Ripple (XRP)</h4>
+                        <p>
+                          <i>Description from the Ripple <a href="https://en.wikipedia.org/wiki/Ripple" target="_blank">Wikipedia Page:</a> </i> Ripple is a real-time gross settlement system, currency exchange and remittance network created by Ripple Labs Inc., a US-based technology company.
+                          <!--chart loaded with JSON data-->
+                              <div id="container2"></div>
+                        </p>
 
+                      </li>
+                      <li>
+                        <h4>Ethereum</h4>
+                        <p>
+                          <i>Description from the Ethereum <a href="https://en.wikipedia.org/wiki/Ethereum" target="_blank">Wikipedia Page:</a>  </i> Ethereum is an open-source, public, blockchain-based distributed computing platform and operating system featuring smart contract functionality. It supports a modified version of Nakamoto consensus via transaction-based state transitions.
+                          <!--chart loaded with JSON data-->
+                              <div id="container3"></div>
+                        </p>
+
+                      </li>
+                      <li>
+                        <h4>Bitcoin</h4>
+                        <p>
+                        We couldn't complete a list without at least mentioning the coin that started the modern cryptocurrency wave. And, even though (as the graph below illustrates) Bitcoin has struggled to maintain its value recently, it is still by far the largest and most valued cryptocurrency on the market.
+                          <!--chart loaded with JSON data-->
+                              <div id="container"></div>
+                        </p>
+
+                      </li>
+
+                    </ol>
+                  </p>
+                </div>
+                <div class='news-section'>
+                  <h3>Want to Learn More? Check Out These Recent News Articles</h3>
+                  <div class="results"></div>
+
+                </div>
           </div>
         </div>
       </div>
       <div class='sticky-menu' id='navbar'>
         <div class='left-option'>
-          <h3>Home</h3>
+          <h3><a class='white' href="index.html">Home</a></h3>
         </div>
         <div class='right-option'>
-          <h3><a href="coins.html">Check Coin Prices</a></h3>
+          <h3><a class='white' href="coins.html">Check Coin Prices</a></h3>
         </div>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
       <script src="https://code.highcharts.com/highcharts.js"></script>
       <script src="js/scroll.js"></script>
       <script src="js/highchart.js"></script>
+      <script src="js/xrp.js"></script>
+      <script src="js/eth.js"></script>
+      <script src="js/script.js"></script>
       <script src="js/coins.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>

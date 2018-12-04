@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Exo:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+
      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
   </head>
@@ -24,11 +26,11 @@
 
 
           <div class='scroll-down'>
-            <div class="edge">
-              <div class="container">
-                <div class="chevron"></div>
-                <div class="chevron"></div>
-                <div class="chevron"></div>
+            <div class="center">
+              <div class='mouse-container'>
+                <div class='mouse'>
+                  <span class='scroll-down'></span>
+                </div>
               </div>
               </div>
             <p id='scroll-txt'>
@@ -36,20 +38,14 @@
               </p>
             </div>
       </div>
-        <div class='sticky-menu' id='navbar'>
-          <div class='left-option'>
-            <h3>Home</h3>
-            </div>
-            <div class='right-option'>
-              <h3><a href="coins.html">Find the Right Coin for You</a></h3>
-              </div>
-          </div>
+
           <br  />
         <div class='content'>
 
           <div class='c-head'>
 
-            <h2 id='head-txt blue'>It's Not Cryptic, it's Crypto</h2>
+
+            <h1 id='head-txt blue'>It's Not Cryptic, it's Crypto</h1>
             </div>
             <div class='c-body'>
               <h3>What is a Cryptocurrency</h3>
@@ -65,7 +61,7 @@
               	<li>Spend like cash</li>
               	<li>Send Funds Internationally</li>
               </ul>
-              <img id='hero'src="images/crypto.jpg" alt="Bitcoin">
+              <img class='hero'src="images/crypto.jpg" alt="Bitcoin">
 
               <p>
                 Most importantly, cryptocurrencies are important because they take away the middle man and protect individual privacy. When you think about the mainstream financial system, users must often either sacrifice speed or pay extra fees when conducting transactions, paying third parties such as banks, credit card companies and currency exchange brokers to send funds from one entity to another. Not only is this system pricey and inefficient, it also sacrifices user privacy as each party involved in the transaction is likely to need confidential information about the users. </p>
@@ -78,10 +74,53 @@
               <div class='news-section'>
                 <h3>Want to Learn More? Check Out These Recent News Articles</h3>
                 <div class="results"></div>
+                <br />
+                <br />
+
+                <p><a href="#modal" id='credits' class="btn go">Credits</a></p>
+
+                <div id="modal">
+                    <div class="modal-content">
+                      <div class="hedr center">
+                        <h2>Hey There!</h2>
+                      </div>
+                      <div class="copy">
+                        <p>
+
+                          Thanks for visiting the site!
+                          <br />
+                          <br />
+                          Before you go exploring exploring, We want you to know that we value your privacy more than convenience, so we <em>don't collect cookies</em> (though we will always accept homemade chocolate chip!)
+                          <br />
+                          <br />
+                          One thing we do collect is a list of sources so that you know that you can trust the information on this site! All of the data on the charts and graphs come courtesy of either https://www.cryptodatadownload.com/ or https://www.coingecko.com/api and the news articles are gathered through an API created and maintained at https://newsapi.org/ , so please consider supporting them!
+                          <br />
+                          <br />
+                          We created this site to make cryptocurrency more approachable for the average person, and we hope that we've accomplished that goal!
+                          <br />
+                        </p>
+                      </div>
+                      <div class="cf footer">
+                        <a href="#" class="btn">Close</a>
+                      </div>
+                    </div>
+                    <div class="overlay"></div>
+                  </div>
 
               </div>
           </div>
+          <div class='sticky-menu' id='navbar'>
+            <div class='left-option'>
+              <h3><a class='white' href="index.html">Home</a></h3>
+            </div>
 
+
+    <div class='right-option'>
+      <h3><a class='white' href="coins.html">Check Coin Prices</a></h3>
+    </div>
+    </div>
+
+</div>
 
 
   </div>

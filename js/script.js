@@ -2,7 +2,7 @@
 // news api
 $(document).ready(function(){
   console.log('Scripts loaded');
-  var Key = '77ad4fb358244fcab74a70201cce3589'
+  var Key = 'ac40151789d74c158c18d11beb4f6ba7'
 
   var base = 'https://newsapi.org/v2/top-headlines?' +
           'q=bitcoin&from=2018-11-03&sortBy=publishedAt&apiKey=';

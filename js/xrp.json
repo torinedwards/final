@@ -1,0 +1,282 @@
+[
+ {
+   "Date": "12/1/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.3585,
+   "High": 0.3585,
+   "Low": 0.3563,
+   "Close": 0.3576,
+   "Volume From": 130812.15,
+   "Volume To": 46734.16
+ },
+ {
+   "Date": "11/30/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.3774,
+   "High": 0.3794,
+   "Low": 0.349,
+   "Close": 0.3585,
+   "Volume From": 23949948.52,
+   "Volume To": 8667220.16
+ },
+ {
+   "Date": "11/29/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.3891,
+   "High": 0.3918,
+   "Low": 0.3667,
+   "Close": 0.3774,
+   "Volume From": 26633101.9,
+   "Volume To": 10073109.59
+ },
+ {
+   "Date": "11/28/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.3561,
+   "High": 0.3982,
+   "Low": 0.3556,
+   "Close": 0.3891,
+   "Volume From": 35159969.52,
+   "Volume To": 13328890.2
+ },
+ {
+   "Date": "11/27/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.3512,
+   "High": 0.366,
+   "Low": 0.3346,
+   "Close": 0.3561,
+   "Volume From": 28527663.44,
+   "Volume To": 9899714.4
+ },
+ {
+   "Date": "11/26/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.3687,
+   "High": 0.3846,
+   "Low": 0.3311,
+   "Close": 0.3512,
+   "Volume From": 57433412.8,
+   "Volume To": 20660994.34
+ },
+ {
+   "Date": "11/25/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.3659,
+   "High": 0.384,
+   "Low": 0.3112,
+   "Close": 0.3687,
+   "Volume From": 65267988.89,
+   "Volume To": 22505412.06
+ },
+ {
+   "Date": "11/24/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4017,
+   "High": 0.4128,
+   "Low": 0.354,
+   "Close": 0.3659,
+   "Volume From": 26524428.72,
+   "Volume To": 10164594.56
+ },
+ {
+   "Date": "11/23/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4168,
+   "High": 0.4219,
+   "Low": 0.3883,
+   "Close": 0.4017,
+   "Volume From": 35858223.21,
+   "Volume To": 14389891.83
+ },
+ {
+   "Date": "11/22/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4408,
+   "High": 0.4451,
+   "Low": 0.4152,
+   "Close": 0.4168,
+   "Volume From": 19165333.47,
+   "Volume To": 8259588.25
+ },
+ {
+   "Date": "11/21/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4247,
+   "High": 0.454,
+   "Low": 0.405,
+   "Close": 0.4408,
+   "Volume From": 42563330.96,
+   "Volume To": 18301810.41
+ },
+ {
+   "Date": "11/20/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4658,
+   "High": 0.492,
+   "Low": 0.4,
+   "Close": 0.4247,
+   "Volume From": 63718430.91,
+   "Volume To": 28182549.25
+ },
+ {
+   "Date": "11/19/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.5056,
+   "High": 0.5064,
+   "Low": 0.46,
+   "Close": 0.4658,
+   "Volume From": 42838324.21,
+   "Volume To": 20624067.72
+ },
+ {
+   "Date": "11/18/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.486,
+   "High": 0.519,
+   "Low": 0.4856,
+   "Close": 0.5056,
+   "Volume From": 20190247.69,
+   "Volume To": 10171240.01
+ },
+ {
+   "Date": "11/17/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4659,
+   "High": 0.4924,
+   "Low": 0.4607,
+   "Close": 0.486,
+   "Volume From": 15201072.34,
+   "Volume To": 7276314.63
+ },
+ {
+   "Date": "11/16/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4745,
+   "High": 0.4798,
+   "Low": 0.456,
+   "Close": 0.4659,
+   "Volume From": 17891116.53,
+   "Volume To": 8364220.78
+ },
+ {
+   "Date": "11/15/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4586,
+   "High": 0.479,
+   "Low": 0.4149,
+   "Close": 0.4745,
+   "Volume From": 39026457.04,
+   "Volume To": 17565288.72
+ },
+ {
+   "Date": "11/14/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.5019,
+   "High": 0.5035,
+   "Low": 0.4,
+   "Close": 0.4586,
+   "Volume From": 54202404.96,
+   "Volume To": 24406578.14
+ },
+ {
+   "Date": "11/13/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.515,
+   "High": 0.52,
+   "Low": 0.4954,
+   "Close": 0.5019,
+   "Volume From": 18071290.56,
+   "Volume To": 9222345.58
+ },
+ {
+   "Date": "11/12/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.5018,
+   "High": 0.5256,
+   "Low": 0.4967,
+   "Close": 0.515,
+   "Volume From": 21114637.78,
+   "Volume To": 10809274.32
+ },
+ {
+   "Date": "11/11/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.5024,
+   "High": 0.505,
+   "Low": 0.4921,
+   "Close": 0.5018,
+   "Volume From": 6224952.51,
+   "Volume To": 3107885.09
+ },
+ {
+   "Date": "11/10/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.497,
+   "High": 0.508,
+   "Low": 0.4956,
+   "Close": 0.5024,
+   "Volume From": 10059333.29,
+   "Volume To": 5053698.87
+ },
+ {
+   "Date": "11/9/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4907,
+   "High": 0.515,
+   "Low": 0.4897,
+   "Close": 0.497,
+   "Volume From": 18698769.96,
+   "Volume To": 9365992.94
+ },
+ {
+   "Date": "11/8/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.5339,
+   "High": 0.5389,
+   "Low": 0.488,
+   "Close": 0.4907,
+   "Volume From": 31921549.29,
+   "Volume To": 16156811.43
+ },
+ {
+   "Date": "11/7/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.5487,
+   "High": 0.5517,
+   "Low": 0.5215,
+   "Close": 0.5339,
+   "Volume From": 21947902.06,
+   "Volume To": 11702817.66
+ },
+ {
+   "Date": "11/6/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4957,
+   "High": 0.565,
+   "Low": 0.457,
+   "Close": 0.5487,
+   "Volume From": 48883890.16,
+   "Volume To": 25836878.53
+ },
+ {
+   "Date": "11/5/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4663,
+   "High": 0.4999,
+   "Low": 0.459,
+   "Close": 0.4957,
+   "Volume From": 25606888.41,
+   "Volume To": 12247639.33
+ },
+ {
+   "Date": "11/4/2018",
+   "Symbol": "XRPUSD",
+   "Open": 0.4526,
+   "High": 0.4745,
+   "Low": 0.4471,
+   "Close": 0.4663,
+   "Volume From": 17421467.65,
+   "Volume To": 8057491.38
+ }
+]

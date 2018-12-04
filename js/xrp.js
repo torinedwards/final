@@ -2,7 +2,8 @@ $(document).ready(function(){
   console.log ('DOM loaded');
 
   // Set up any variables needed
-  var url = './js/btc.json';
+  var url = './js/xrp.json';
+
   var date = [];
   var priceHigh = [];
   var chartData = [];
@@ -50,10 +51,10 @@ $(document).ready(function(){
     })
 
     // line chart
-    Highcharts.chart('container', {
+    Highcharts.chart('container2', {
 
       title: {
-             text: 'Bitcoin Prices in USD, 2015-2018'
+             text: 'Ripple Prices in USD, Last 30 days'
          },
 
          subtitle: {
@@ -90,7 +91,7 @@ $(document).ready(function(){
     Highcharts.chart('container', {
 
       title: {
-             text: 'Bitcoin Prices in USD, 2015-2018'
+             text: 'Ripple Prices in USD, 2015-2018'
          },
 
          subtitle: {
@@ -128,4 +129,6 @@ $(document).ready(function(){
 
 
   }
+
+
 });
