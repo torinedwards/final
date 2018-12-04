@@ -1,32 +1,35 @@
 
 // coins api
 
-  $(function(){
-    console.log('scripts loaded');
-    var url = 'https://api.coingecko.com/api/v3/simple/price?ids=btc%2C%20xrp%2C%20ltc%2C%20eth%2C%20bch%2C%20usdc%2C%20doge%2C%20miota%2C%20xlm%2C%20usdt&' + 'vs_currencies=usd&include_24hr_vol=false&include_last_updated_at=false';
-    $.ajax({
-      type: 'GET',
-      url: url,
-      success: function(data){
-        console.log(data);
-        buildTable(data);
-      },
+      $(function(){
+        console.log('scripts loaded');
+        var url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_rank&per_page=10&page=1';
 
-      error: function(error) {
-        console.log(error);
-      },
-    });
+        $.ajax({
+        type: 'GET',
+        url: url,
+        success: function(data){
+          console.log(data);
+          buildDT(data);
+        },
 
-  function buildDT(data) {
-    $('#table').dataTable({
-      data: data,
-      columns: [
-        {"data": "name"},
-        {"data": "Area"},
-        {"data": "Population"},
-        {"data": "Airports"}
-      ]
-    })
-  }
+        error: function(error) {
+          console.log(error);
+        },
+      });
 
-  });
+      function buildDT(data) {
+        $('#table').dataTable({
+          data: data,
+          columns: [
+            {"data": "name"},
+            {"data": "market_cap"},
+            {"data": "market_cap_rank"},
+            {"data": "ath"},
+            {"data": "current_price"}
+
+          ]
+        })
+      }
+
+      });
